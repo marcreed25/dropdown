@@ -103,5 +103,17 @@ nav li {
 }
 
 article {
-    padding-left: 1rem;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: arial;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.3;
 }
