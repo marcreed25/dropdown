@@ -66,6 +66,30 @@ nav {
     background-color: hsl(120, 37.4%, 61.2%);
 }
 
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+    /* margin-right: auto; */
+    font-size: 1.75rem;
+
+    a {
+        /* color: lightskyblue; */
+        text-decoration: none;
+    }
+
+    & :hover {
+        /* color: hsl(203, 92%, 50%);; */
+    }
+}
+
 article {
     padding-left: 1rem;
 }
