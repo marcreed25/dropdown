@@ -2,6 +2,7 @@
 <head>
     <meta name="viewport" content="width=device-width; height=device-height; initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
     <title>Website</title>
     <meta name="description" content="A mobile-first website">
 </head>
@@ -9,6 +10,11 @@
 <body>
     <div id="middle">
         <header>
+            <div id="toggle-container">
+                <button id="toggle" onclick="toggleBar()">
+                    <img src="burger.svg" />
+                </button>
+            </div>
             <div id="title">Website</div>
 
             <!-- <nav>
