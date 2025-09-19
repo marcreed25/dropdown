@@ -63,8 +63,14 @@ nav {
     z-index: 1;
     width: fit-content;
     height: fit-content;
-    background-color: hsl(120, 37.4%, 61.2%);
+    background-color: hsl(120, 37.4%, 55.2%);
     padding: 20px;
+    border-style: solid;
+    border-color: grey;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
 }
 
 ul {
