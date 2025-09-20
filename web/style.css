@@ -99,10 +99,13 @@ nav li {
     }
 }
 
+#article-container {
+    display: flex;
+    justify-content: center;
+}
+
 article {
-    margin-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-top: 1rem;
     font-family: arial;
 }
 
@@ -133,9 +136,7 @@ p {
     }
 
     article {
-        width: auto;
-        margin-left: unset;
-        margin-right: unset;
+        width: 85%;
     }
 }
 
@@ -158,7 +159,5 @@ p {
 
     article {
         width: 75%;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
