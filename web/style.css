@@ -16,10 +16,7 @@ header {
 }
 
 #title {
-    display: inline-block;;
-    /* font-weight: bold; */
-    /* margin-top: auto;
-    margin-bottom: auto; */
+    display: inline-block;
 }
 
 #toggle-container {
@@ -36,7 +33,6 @@ header {
     display: block;
     height: auto;
     min-width: 31.75px;
-    /* max-width: 50px; */
     min-height: 24.5px;
     padding: 4px;
     border-style: solid;
@@ -87,7 +83,6 @@ ul {
 
 nav li {
     list-style-type: none;
-    /* margin-right: auto; */
     font-size: 1.75rem;
     width: fit-content;
     height: fit-content;
