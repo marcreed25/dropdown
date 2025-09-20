@@ -39,6 +39,8 @@ header {
     /* max-width: 50px; */
     min-height: 24.5px;
     padding: 4px;
+    border-style: solid;
+    border-color: grey;
     border-width: 1px;
     border-radius: 8px;
     float: none;
