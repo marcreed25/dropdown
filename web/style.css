@@ -132,6 +132,12 @@ p {
     nav {
         top: 87px;
     }
+
+    article {
+        width: auto;
+        margin-left: unset;
+        margin-right: unset;
+    }
 }
 
 @media (width > 500px) {
@@ -149,5 +155,11 @@ p {
 
     nav {
         top: 62px;
+    }
+
+    article {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
